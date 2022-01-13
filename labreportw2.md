@@ -25,10 +25,17 @@ Once you have set up Visual Studio Code, your application should look something 
 
 ![Image](blank_vscode.png)
 
-If your application does not have a Terminal tab open at the bottom like in the screenshot, open a new terminal by going to Terminal on the top left,
+If your application does not have a Terminal tab open at the bottom like in the screenshot, open a new terminal by going to Terminal on the top left, and click "New Terminal".
+
+![Image](terminal.png)
+
 ---
 ## **Remotely Connecting** <a name="remote"></a>
+Now that you have VS Code set up, you need to access your CSE 15L course specific account. If you are on Windows, install OpenSSH, which is a program that allows you to remotely connect to other computers.
 
+Install OpenSSH
+
+---
 ## **Trying Some Commands** <a name="commands"></a>
 
 ## **Moving Files with `scp`** <a name="scp"></a>
