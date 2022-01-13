@@ -1,23 +1,8 @@
-Hello World!
-*Hello World!*
-**Hello World!**
-# Hello World!
-## Hello World!
-[Google](google.com)
-![Image](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*)
-> Hello World!
+# Week 2 Lab Report
+## Welcome new CSE 15L students!
 
-* Hello
-* World
-* !
+## \#1. Introduction
+Here is how to log on to your respective course-specific account on ieng6, which is a tool that you will need for this class! First, however, you will need to install Visual Studio Code.
 
-1. Hello
-2. World
-3. !
+## \#2. Installing VS Code
 
----
-`Hello World!`
-
-```
-System.out.println("Hello World!");
-```
