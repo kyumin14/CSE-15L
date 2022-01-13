@@ -13,7 +13,10 @@
 ## \#1. Introduction <a name="introduction"></a>
 Here is how to log on to your respective course-specific account on `ieng6`, which is a tool that you will need for this class! First, however, you will need to install Visual Studio Code.
 
+---
 ## \#2. Installing Visual Studio Code <a name="vscode"></a>
+To install Visual Studio Code, go to the [download website](https://code.visualstudio.com/) and follow the instructions for your respective operating system.
+
 
 ## \#3. Remotely Connecting <a name="remote"></a>
 
