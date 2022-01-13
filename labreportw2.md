@@ -104,18 +104,23 @@ Now, you should be connected to the CSE basement computers!
 Try running the following commands with different arguments on both your local machine and the server:
 
 - `cd` - navigate through directories
+
 ![Image](screenshots/cd.png)
 
 - `ls` - displays contents of current directory
+
 ![Image](screenshots/ls.png)
 
 - `pwd` - finds the path of the current working directory
+
 ![Image](screenshots/pwd.png)
 
 - `mkdir` - creates a new directory in the current working directory
+
 ![Image](screenshots/mkdir.png)
 
 - `cp` - copies a file from the current directory to a different directory
+
 ![Image](screenshots/cp.png)
 
 These are some out of the many extremely useful command line commands. Be sure to remember these for future reference!
