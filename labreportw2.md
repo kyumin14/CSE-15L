@@ -17,17 +17,17 @@ Here is a guide on how to log on to your respective course-specific account on `
 ## **Installing Visual Studio Code** <a name="vscode"></a>
 To install Visual Studio Code, go to the [download website](https://code.visualstudio.com/) and follow the instructions for your respective operating system.
 
-![Image](vscode_download.png)
+![Image](screenshots/vscode_download.png)
 
 The webpage should look similar to the screenshot provided. Download the **stable** build for your operating system.
 
 Once you have set up Visual Studio Code, your application should look something like this:
 
-![Image](blank_vscode.png)
+![Image](screenshots/blank_vscode.png)
 
 If your application does not have a Terminal tab open at the bottom like in the screenshot, open a new terminal by going to Terminal on the top left, and click "New Terminal".
 
-![Image](terminal.png)
+![Image](screenshots/terminal.png)
 
 ---
 ## **Remotely Connecting** <a name="remote"></a>
