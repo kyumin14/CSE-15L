@@ -127,7 +127,35 @@ These are some out of the many extremely useful command line commands. Be sure t
 
 ---
 ## **Moving Files with `scp`** <a name="scp"></a>
+Now, let's try using a command that lets us move files over SSH. This is incredibly important when working remotely so that you are able to copy files over the host and server computers.
+
+First download [this file](WhereAmI.java) that we will be moving over to your user on the server.
+
+Once you have the file downloaded, go to the directory that contains that file and type:
+
+![Image](screenshots/scp.png)
+
+Your output should look similar to the screenshot.
+
+Once you have your output, run these two commands on the server.
+
+![Image](screenshots/javac.png)
+
+These commands will run WhereAmI.java and tell you exactly where the file is on the server computer. If you get these outputs, congratulations! You have successfully copied a file over SSH.
 
 ## **Setting an SSH Key** <a name="sshkey"></a>
+Now, is it not annoying typing in your password every time you want to remotely connect to the server? Well have no fear, because you can set an SSH key, which creates a public and private key specific to your computer that allows you to use those keys in place of your password.
+
+To do this, run the command `ssh-keygen` which should give you an output like this:
+
+![Image](screenshots/sshkeygen.png.jpg)
+
+Once the command has run, it would have created two new files, `id_rsa` and `id_rsa.pub`. `id_rsa` is your private key while `id_rsa.pub` is your public key.
+
+Now that you have the two files, go to the server and use the command `mkdir .ssh` to make the .ssh directory, then copy the **public** key over to the .ssh/authorized_keys folder.
+
+![Image](screenshots/sshkey.jpg)
+
+Try using ssh now to log on to your user on the server. You should not need a password now!
 
 ## **Optimizing Remote Running** <a name="optimize"></a>
