@@ -159,3 +159,14 @@ Now that you have the two files, go to the server and use the command `mkdir .ss
 Try using ssh now to log on to your user on the server. You should not need a password now!
 
 ## **Optimizing Remote Running** <a name="optimize"></a>
+In order to optimize your remote experience, you can make local changes to your file in Visual Studio Code, upload it to the server, and run it using some shortcuts.
+
+These shortcuts include using the up arrow in your Visual Studio Code terminal to re-run previously typed commands like `ssh`, and using `ssh` to run commands on the server without acutally being on the server. For example:
+
+![Image](screenshots/sshrun.jpg)
+
+I just ran `ls` on the server without having to log on. You can also use semicolons to run multiple commands, like so:
+
+![Image](screenshots/multiplecommands.jpg)
+
+And thats all! Try to explore some other ways to run commands on the server remotely in order to find a more optimal workflow!
