@@ -129,7 +129,7 @@ These are some out of the many extremely useful command line commands. Be sure t
 ## **Moving Files with `scp`** <a name="scp"></a>
 Now, let's try using a command that lets us move files over SSH. This is incredibly important when working remotely so that you are able to copy files over the host and server computers.
 
-First download [this file](WhereAmI.java) that we will be moving over to your user on the server.
+First download <a href="WhereAmI.java" download>this file</a> that we will be moving over to your user on the server.
 
 Once you have the file downloaded, go to the directory that contains that file and type:
 
